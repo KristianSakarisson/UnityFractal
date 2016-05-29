@@ -39,9 +39,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e91b262d159e9034f94a13383d95a98c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  meshes:
+  - {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   material: {fileID: 2100000, guid: 39e97736d2d61234d82b323724765eeb, type: 2}
-  maxDepth: 4
+  maxDepth: 5
+  spawnProbability: 0.75
   childScale: 0.5
 --- !u!1001 &100100000
 Prefab:
